@@ -12,9 +12,9 @@
 1. The script checks for "Project"" directory in current working directory and creates one if none exists    
 2. The script downloads and extracts the data into the "Project"" directory 
 3. The script reads the test and train data sets into appropriate data frames   
-4. The script prepares the test and train data sets for a merge
-    i) Converts Activity data for both data sets to a factor variable and assigns appropriate labels
-    ii) Assigns "features" data to column names of both data sets
+4. The script prepares the test and train data sets for a merge  
+    i) Converts Activity data for both data sets to a factor variable and assigns appropriate labels  
+    ii) Assigns "features" data to column names of both data sets  
     iii) Subsets the data to include ONLY features with mean() or std()  
 5. The script merges the prepared data sets  
 6. The script renames the variables using regular expressions for clearer interpretation 
